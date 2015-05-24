@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Operators And Expressions</title>
+</head>
+<body>
+<h2>Hello! Welcome to my homework!</h2>
+<p>Here is a link to the examples to help you check it quicker! <a href="https://github.com/TelerikAcademy/JavaScript-Fundamentals/tree/master/04.%20Operators%20and%20Expressions">Operators And Expressions.</a></p>
+<p>All you have to do is enter the values you wish to test and press submit and the result should appear. I used Google Chrome to test it.</p>
+<h3>
+    Problem 1: Odd Or Even
+</h3>
+<p>Write an expression that checks if given integer is odd or even.</p>
+<textarea id="taskOneInput" maxlength="16" placeholder="Enter a number here"></textarea>
+<button type="button" onclick="oddOrEven()">
+    Submit!
+</button>
+<h3>
+    Problem 2: Divisible by 5 and 7 at the same time
+</h3>
+<p>Write a boolean expression that checks for given integer if it can be divided (without remainder) by 7 and 5 in the same time.</p>
+<textarea id="taskTwoInput" maxlength="16" placeholder="Enter a number here"></textarea>
+<button type="button" onclick="divisibleByFiveAndSeven()">Submit!</button>
+<h3>
+    Problem 3: Calculate Rectangle Area
+</h3>
+<p>Write an expression that calculates rectangle’s area by given width and height.</p>
+<table>
+    <tr>
+        <td><input type="text" id="width" placeholder="Width value"/></td>
+        <td><input type="text" id="height" placeholder="Height value"/></td>
+
+    </tr>
+    <tr>
+        <td><button onclick="calculateArea()">Submit!</button></td>
+        <td><input type="text" id="result" placeholder="Result will appear here!"/></td>
+    </tr>
+</table>
+<h3>
+    Problem 4: Third Digit
+</h3>
+<p>Write an expression that checks for given integer if its third digit (right-to-left) is 7.</p>
+<textarea id="taskFourInput" maxlength="16" placeholder="Enter a number here"></textarea>
+<button type="button" onclick="thirdDigitIsSeven()">Submit!</button>
+<h3>Problem 5. Third bit</h3>
+<ul>
+    <li>Write a boolean expression for finding if the bit #3 (counting from 0) of a given integer.</li>
+    <li>The bits are counted from right to left, starting from bit #0.</li>
+    <li>The result of the expression should be either 1 or 0.</li>
+</ul>
+<textarea id="taskFiveInput" maxlength="16" placeholder="Enter decimal number here"></textarea>
+<button type="button" onclick="findThirdBit()">Submit!</button>
+<h3>Problem 6: Point in a circle</h3>
+<p>Write an expression that checks if given point P(x, y) is within a circle K(O, 5).</p>
+<table>
+    <tr>
+        <td><input type="text" id="x" placeholder="X value"/></td>
+        <td><input type="text" id="y" placeholder="Y value"/></td>
+
+    </tr>
+    <tr>
+        <td><button onclick="pointIsInCircle()">Submit!</button></td>
+        <td><input type="text" id="inside" placeholder="Result will appear here!"/></td>
+    </tr>
+</table>
+<h3>Problem 7. Is prime</h3>
+<p>Write an expression that checks if given positive integer number n (n ≤ 100) is prime.</p>
+<textarea id="taskSevenInput" placeholder="Enter a number here"></textarea>
+<button type="button" onclick="isPrime()">Submit!</button>
+<h3>Problem 8. Trapezoid area</h3>
+<p>Write an expression that calculates trapezoid's area by given sides a and b and height h</p>
+<table>
+    <tr>
+        <td><input type="text" id="a" placeholder="A"/></td>
+        <td><input type="text" id="b" placeholder="B"/> </td>
+        <td><input type="text" id="h" placeholder="height"/> </td>
+    </tr>
+    <tr>
+        <td><button onclick="trapezoidCalculateArea()">Submit!</button></td>
+        <td><input type="text" id="trapezoidArea" placeholder="Result will appear here!"/></td>
+    </tr>
+</table>
+<h3>Problem 9. Point in Circle and outside Rectangle</h3>
+<p>Write an expression that checks for given point P(x, y) if it is within the circle K( (1,1), 3) and out of the rectangle R(top=1, left=-1, width=6, height=2)</p>
+<table>
+    <tr>
+        <td><input type="text" id="x-coordinate" placeholder="X value"/></td>
+        <td><input type="text" id="y-coordinate" placeholder="Y value"/></td>
+
+    </tr>
+    <tr>
+        <td><button onclick="pointIsInCircleAndOutRectangle()">Submit!</button></td>
+        <td><input type="text" id="inCircleAndOutRectangle" placeholder="Result will appear here!"/></td>
+    </tr>
+</table>
+<script src="01.OddOrEven.js"></script>
+</body>
+</html>
